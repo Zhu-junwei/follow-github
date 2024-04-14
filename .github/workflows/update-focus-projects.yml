@@ -18,7 +18,7 @@ jobs:
           java-version: '21'
 
       - name: Set environment variable
-        run: echo "export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+        run: echo "export GITHUB_TOKEN=${{ secrets.TOKEN }}" >> $GITHUB_ENV
 
       - name: Build and run Maven project
         run: |
