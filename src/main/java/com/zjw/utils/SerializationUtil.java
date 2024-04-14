@@ -77,14 +77,14 @@ public class SerializationUtil {
                                 
                 fetch date：**%tF**
                                 
-                | Name                |    Release    |   Release Date    |    Github      |    Language      | description                                                                            |
-                |---------------------|---------------|-------------------|----------------|----------------|----------------------------------------------------------------------------------------|
+                | Name                |         Release        |   Release Date    |    Github      |    Language      | description                                                                            |
+                |---------------------|------------------------|-------------------|----------------|----------------|----------------------------------------------------------------------------------------|
                 """;
         header = header.formatted(new Date());
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             writer.write(header);
             for (RepositoryReadMe readMe : repositoryReadMeList) {
-                String formatted = String.format("|%s |%s| %s|%s|%s| <div style=\"width: 300pt\">%s</div> |",
+                String formatted = String.format("|%s |%s| %s|%s|%s| <div style=\"width: 200pt\">%s</div> |",
                         readMe.getName(),
                         readMe.getVersion(),
                         readMe.getReleaseAt(),
