@@ -3,6 +3,7 @@ name: Update Follow Projects
 on:
   schedule:
     - cron: '0 0 * * *' # 每天UTC时间00:00执行
+  workflow_dispatch: # 允许手动执行
 
 jobs:
   build:
