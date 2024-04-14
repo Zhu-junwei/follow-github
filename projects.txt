@@ -34,3 +34,4 @@ vuejs/core
 vuejs/pinia
 xiaoymin/knife4j
 square/okhttp
+h2database/h2database
