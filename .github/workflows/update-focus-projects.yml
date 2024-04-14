@@ -24,12 +24,11 @@ jobs:
 
       - name: Build and run Maven project
         run: |
+          echo "export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
           mvn clean install
-          mvn exec:java -Dexec.mainClass="com.zjw.ProjectFetcher" -DGITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          mvn exec:java -Dexec.mainClass="com.zjw.ProjectFetcher"
 
       - name: Commit changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "zhujwmail@163.com"
           git config --global user.name "github-actions[bot]"
