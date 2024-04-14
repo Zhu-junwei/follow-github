@@ -33,4 +33,4 @@ jobs:
           git config --global user.name "今天幸福不在家"
           git add .
           git commit -m "Update files"
-          git push
+          git push origin HEAD:${{ github.ref }}
