@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 * * *' # 每天UTC时间00:00执行
   workflow_dispatch: # 允许手动执行
+  push:
+    branches:
+      - main  # 当 main 分支有推送时执行
 
 jobs:
   build:
@@ -29,7 +32,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "zhujwmail@163.com"
-          git config --global user.name "今天幸福不在家"
-          git add .
-          git commit -m "Update files"
-          git push origin HEAD:${{ github.ref }}
+          git config --global user.name "github-actions[bot]"
+          current_time=$(date +"%Y-%m-%d %T")  # 获取当前时间
+          commit_message="update $current_time"  # 构造提交信息
+          if [ -n "$(git status --porcelain)" ]; then  # 检查是否有未提交的变更
+            git add .
+            git commit -m "$commit_message"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No changes to commit"
+          fi

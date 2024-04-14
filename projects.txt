@@ -33,3 +33,4 @@ spring-projects/spring-framework
 vuejs/core
 vuejs/pinia
 xiaoymin/knife4j
+square/okhttp
