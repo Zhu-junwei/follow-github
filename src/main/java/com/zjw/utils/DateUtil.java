@@ -2,6 +2,7 @@ package com.zjw.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 /**
  * @author 朱俊伟
@@ -10,7 +11,9 @@ import java.util.Date;
 public class DateUtil {
 
     public static SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
-
+    static {
+        sdf.setTimeZone(TimeZone.getTimeZone("UTC+8"));
+    }
     public static String currentDate() {
         String str = null;
         try {
