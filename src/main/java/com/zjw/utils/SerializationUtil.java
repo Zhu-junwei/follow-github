@@ -28,6 +28,7 @@ public class SerializationUtil {
             Path parentPath = Paths.get(File_DIR_PATH);
             Files.createDirectories(parentPath);
             String fileName = File_DIR_PATH + File.separator + "fetch-" + DateUtil.currentDate();
+            latestFile = new File(fileName);
             try (ObjectOutputStream objectOut = new ObjectOutputStream(new FileOutputStream(fileName))) {
                 objectOut.writeObject(list);
             }
