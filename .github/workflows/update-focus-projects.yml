@@ -2,11 +2,11 @@ name: Update Follow Projects
 
 on:
   schedule:
-    - cron: '0/5 * * * *' # 每天北京时间凌晨1点执行
+    - cron: '0 2,16 * * *'
   workflow_dispatch: # 允许手动执行
   push:
     branches:
-      - master #  # 当 main 分支有推送时执行
+      - master
 
 jobs:
   build:
