@@ -32,8 +32,4 @@ public class HttpUtil {
         result = response.body().string();
         return result;
     }
-
-    public static void main(String[] args) {
-
-    }
 }

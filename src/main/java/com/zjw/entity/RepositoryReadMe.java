@@ -83,7 +83,7 @@ public class RepositoryReadMe {
     }
 
     private RepositoryReadMe releaseAt() {
-        Date releaseOrUpdate = repository.getReleaseAt() == null ? repository.getUpdatedAt() : repository.getReleaseAt();
+        Date releaseOrUpdate = repository.getReleaseAt() == null ? repository.getPushedAt() : repository.getReleaseAt();
         readMe.releaseAt = releaseOrUpdate == null ? "" : String.format("%tF", releaseOrUpdate);
         return readMe;
     }

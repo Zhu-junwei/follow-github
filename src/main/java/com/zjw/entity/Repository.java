@@ -58,7 +58,7 @@ public class Repository implements Serializable {
     /**
      * 发布时间
      */
-    private Date ReleaseAt;
+    private Date releaseAt;
 
     /**
      * 创建时间
@@ -69,6 +69,11 @@ public class Repository implements Serializable {
      * 更新时间
      */
     private Date updatedAt;
+
+    /**
+     * 最后推送时间
+     */
+    private Date pushedAt;
 
     /**
      * 星标数

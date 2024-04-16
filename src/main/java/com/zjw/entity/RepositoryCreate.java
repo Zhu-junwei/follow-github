@@ -6,12 +6,15 @@ import com.alibaba.fastjson2.JSONObject;
 import com.zjw.utils.HttpUtil;
 
 import java.util.Date;
+import java.util.logging.Logger;
 
 /**
  * @author 朱俊伟
  * @since 2024/04/13 08:28
  */
 public class RepositoryCreate {
+
+    Logger logger = Logger.getLogger(RepositoryCreate.class.getName());
 
     public Repository createRepository(String fullName) {
         Repository repository = new Repository(fullName);
@@ -31,6 +34,7 @@ public class RepositoryCreate {
             repository.setDescription(jsonObject.getString("description"));
             repository.setCreatedAt(jsonObject.getDate("created_at"));
             repository.setUpdatedAt(jsonObject.getDate("updated_at"));
+            repository.setPushedAt(jsonObject.getDate("pushed_at"));
             repository.setStarCount(jsonObject.getIntValue("stargazers_count"));
             repository.setForkCount(jsonObject.getIntValue("forks_count"));
             repository.setFetchDate(new Date());

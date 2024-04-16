@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
@@ -19,6 +20,8 @@ import java.util.stream.Collectors;
  * @version 1.0.0
  */
 public class ProjectFetcher {
+
+    private static final Logger logger = Logger.getLogger(ProjectFetcher.class.getName());
 
     public static void main(String[] args) {
 
@@ -54,8 +57,10 @@ public class ProjectFetcher {
             // today has been fetched
             if (repositoryMap.containsKey(project) && DateUtil.currentDate()
                     .equals(DateUtil.dateToStr(repositoryMap.get(project).getFetchDate()))) {
+                logger.info(project + " has been fetched today, skip.");
                 continue;
             }
+            logger.info("Fetching " + project + " ...");
             Repository repository = repositoryCreate.createRepository(project);
             repositoryMap.put(project, repository);
         }
