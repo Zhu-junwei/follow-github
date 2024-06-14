@@ -14,6 +14,7 @@ badges/shields
 baomidou/mybatis-plus
 dromara/hutool
 dromara/Sa-Token
+ele-admin/EasyCaptcha
 element-plus/element-plus
 google/gson
 google/guava
