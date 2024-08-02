@@ -1,6 +1,6 @@
 # Project Information
 
-fetch date：**2024-08-01**
+fetch date：**2024-08-02**
 
 | Name                |         Release        |   Release Date    |    Github      |    Language      | description                                                                            |
 |---------------------|------------------------|-------------------|----------------|------------------|----------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ fetch date：**2024-08-01**
 |[java-jwt](https://github.com/auth0/java-jwt) |[![](https://img.shields.io/badge/java--jwt-4.4.0-green.svg)](https://github.com/auth0/java-jwt/releases)| 2023-03-31|[![GitHub stars](https://img.shields.io/github/stars/auth0/java-jwt)](https://github.com/auth0/java-jwt)|Java| <div style="width: 150pt">Java implementation of JSON Web Token (JWT)</div> |
 |[jenkins](https://www.jenkins.io) |[![](https://img.shields.io/badge/jenkins-2.470-green.svg)](https://github.com/jenkinsci/jenkins/releases)| 2024-07-30|[![GitHub stars](https://img.shields.io/github/stars/jenkinsci/jenkins)](https://github.com/jenkinsci/jenkins)|Java| <div style="width: 150pt">Jenkins automation server</div> |
 |[jjwt](https://github.com/jwtk/jjwt) |[![](https://img.shields.io/badge/jjwt-0.12.6-green.svg)](https://github.com/jwtk/jjwt/releases)| 2024-06-21|[![GitHub stars](https://img.shields.io/github/stars/jwtk/jjwt)](https://github.com/jwtk/jjwt)|Java| <div style="width: 150pt">Java JWT: JSON Web Token for Java and Android</div> |
-|[kafka](https://github.com/apache/kafka) |[![GitHub Tag](https://img.shields.io/github/v/tag/apache/kafka?sort=date)](https://github.com/apache/kafka/tags)| 2024-08-01|[![GitHub stars](https://img.shields.io/github/stars/apache/kafka)](https://github.com/apache/kafka)|Java| <div style="width: 150pt">Mirror of Apache Kafka</div> |
+|[kafka](https://github.com/apache/kafka) |[![GitHub Tag](https://img.shields.io/github/v/tag/apache/kafka?sort=date)](https://github.com/apache/kafka/tags)| 2024-08-02|[![GitHub stars](https://img.shields.io/github/stars/apache/kafka)](https://github.com/apache/kafka)|Java| <div style="width: 150pt">Mirror of Apache Kafka</div> |
 |[knife4j](https://doc.xiaominfo.com) |[![](https://img.shields.io/badge/knife4j-4.5.0-green.svg)](https://github.com/xiaoymin/knife4j/releases)| 2024-01-08|[![GitHub stars](https://img.shields.io/github/stars/xiaoymin/knife4j)](https://github.com/xiaoymin/knife4j)|HTML| <div style="width: 150pt">Knife4j is a set of Swagger2 and OpenAPI3 All-in-one enhancement solution</div> |
 |[mapstruct](https://mapstruct.org/) |[![](https://img.shields.io/badge/mapstruct-1.6.0-green.svg)](https://github.com/mapstruct/mapstruct/releases)| 2024-07-20|[![GitHub stars](https://img.shields.io/github/stars/mapstruct/mapstruct)](https://github.com/mapstruct/mapstruct)|Java| <div style="width: 150pt">An annotation processor for generating type-safe bean mappers</div> |
 |[minio](https://min.io/download) |[![](https://img.shields.io/badge/minio-RELEASE.2024--07--31T05--46--26Z-green.svg)](https://github.com/minio/minio/releases)| 2024-07-31|[![GitHub stars](https://img.shields.io/github/stars/minio/minio)](https://github.com/minio/minio)|Go| <div style="width: 150pt">The Object Store for AI Data Infrastructure</div> |
