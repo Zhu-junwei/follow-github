@@ -4,6 +4,7 @@ alibaba/fastjson2
 alibaba/nacos
 alibaba/Sentinel
 alibaba/spring-cloud-alibaba
+apache/commons-io
 apache/dubbo
 apache/incubator-seata
 apache/kafka
