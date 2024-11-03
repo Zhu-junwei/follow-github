@@ -1,3 +1,4 @@
+axios/axios
 alibaba/druid
 alibaba/easyexcel
 alibaba/fastjson2
