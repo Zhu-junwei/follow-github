@@ -1,3 +1,5 @@
+ai/nanoid
+uuidjs/uuid
 alibaba/druid
 alibaba/easyexcel
 alibaba/fastjson2
