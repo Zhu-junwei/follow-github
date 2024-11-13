@@ -181,7 +181,7 @@ public class SerializationUtil {
         if (!projectsCopy.equals(projects)) {
             // 保存到文件
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(PROJECTS_NAME))) {
-                for (String project : projects) {
+                for (String project : projectsCopy) {
                     writer.write(project);
                     writer.newLine();
                 }
