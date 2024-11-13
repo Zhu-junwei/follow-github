@@ -1,5 +1,4 @@
 6tail/lunar-java
-keycloak/keycloak
 ai/nanoid
 alibaba/druid
 alibaba/easyexcel
@@ -27,6 +26,7 @@ h2database/h2database
 halo-dev/halo
 jenkinsci/jenkins
 jwtk/jjwt
+keycloak/keycloak
 lionsoul2014/ip2region
 mapstruct/mapstruct
 minio/minio
