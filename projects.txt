@@ -1,4 +1,3 @@
-oshi/oshi
 ai/nanoid
 alibaba/druid
 alibaba/easyexcel
@@ -31,6 +30,7 @@ mapstruct/mapstruct
 minio/minio
 mybatis/mybatis-3
 Netflix/eureka
+oshi/oshi
 rabbitmq/rabbitmq-server
 redis/redis
 redisson/redisson
