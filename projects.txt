@@ -1,5 +1,3 @@
-axios/axios
-vuejs/pinia
 alibaba/druid
 alibaba/easyexcel
 alibaba/fastjson2
@@ -13,6 +11,7 @@ apache/kafka
 apache/rocketmq
 apache/skywalking
 auth0/java-jwt
+axios/axios
 badges/shields
 baomidou/mybatis-plus
 dromara/hutool
@@ -21,8 +20,10 @@ ele-admin/EasyCaptcha
 element-plus/element-plus
 google/gson
 google/guava
+h2database/h2database
 halo-dev/halo
 jenkinsci/jenkins
+jwtk/jjwt
 lionsoul2014/ip2region
 mapstruct/mapstruct
 minio/minio
@@ -34,9 +35,8 @@ redisson/redisson
 spring-cloud/spring-cloud-openfeign
 spring-projects/spring-boot
 spring-projects/spring-framework
+square/okhttp
 vuejs/core
 vuejs/pinia
+vuejs/pinia
 xiaoymin/knife4j
-square/okhttp
-h2database/h2database
-jwtk/jjwt
