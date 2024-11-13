@@ -1,4 +1,5 @@
 axios/axios
+vuejs/pinia
 alibaba/druid
 alibaba/easyexcel
 alibaba/fastjson2
