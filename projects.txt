@@ -1,5 +1,4 @@
 ai/nanoid
-uuidjs/uuid
 alibaba/druid
 alibaba/easyexcel
 alibaba/fastjson2
@@ -38,6 +37,7 @@ spring-cloud/spring-cloud-openfeign
 spring-projects/spring-boot
 spring-projects/spring-framework
 square/okhttp
+uuidjs/uuid
 vuejs/core
 vuejs/pinia
 vuejs/pinia
