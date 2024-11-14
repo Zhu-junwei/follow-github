@@ -1,4 +1,3 @@
-developit/mitt
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -17,6 +16,7 @@ auth0/java-jwt
 axios/axios
 badges/shields
 baomidou/mybatis-plus
+developit/mitt
 dromara/hutool
 dromara/Sa-Token
 ele-admin/EasyCaptcha
