@@ -1,4 +1,5 @@
 6tail/lunar-java
+apache/echarts
 ai/nanoid
 alibaba/druid
 alibaba/easyexcel
