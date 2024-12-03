@@ -1,5 +1,4 @@
 6tail/lunar-java
-apache/echarts
 ai/nanoid
 alibaba/druid
 alibaba/easyexcel
@@ -9,6 +8,7 @@ alibaba/Sentinel
 alibaba/spring-cloud-alibaba
 apache/commons-io
 apache/dubbo
+apache/echarts
 apache/incubator-seata
 apache/kafka
 apache/rocketmq
