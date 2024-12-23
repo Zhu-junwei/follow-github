@@ -23,7 +23,8 @@ dromara/Sa-Token
 ele-admin/EasyCaptcha
 ElemeFE/element
 element-plus/element-plus
-FasterXML/jackson
+FasterXML/jackson-databind
+FasterXML/jackson-annotations
 google/gson
 google/guava
 h2database/h2database
