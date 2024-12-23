@@ -1,4 +1,3 @@
-FasterXML/jackson
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -24,6 +23,7 @@ dromara/Sa-Token
 ele-admin/EasyCaptcha
 ElemeFE/element
 element-plus/element-plus
+FasterXML/jackson
 google/gson
 google/guava
 h2database/h2database
