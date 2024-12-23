@@ -1,3 +1,4 @@
+FasterXML/jackson
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
