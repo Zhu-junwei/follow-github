@@ -1,4 +1,3 @@
-grpc/grpc-java
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -28,6 +27,7 @@ FasterXML/jackson-annotations
 FasterXML/jackson-databind
 google/gson
 google/guava
+grpc/grpc-java
 h2database/h2database
 halo-dev/halo
 jenkinsci/jenkins
