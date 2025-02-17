@@ -1,4 +1,3 @@
-quarkusio/quarkus
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -42,6 +41,7 @@ mybatis/mybatis-3
 Netflix/eureka
 nginx/nginx
 oshi/oshi
+quarkusio/quarkus
 rabbitmq/rabbitmq-server
 redis/redis
 redisson/redisson
