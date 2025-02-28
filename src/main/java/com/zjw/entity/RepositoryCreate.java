@@ -52,21 +52,13 @@ public class RepositoryCreate {
     private void release(Repository repository) {
         String latestRelease = null;
         try {
-            String result = HttpUtil.get("https://api.github.com/repos/" + repository.getFullName() + "/releases");
-            // 有release
+
+            String result = HttpUtil.get("https://api.github.com/repos/" + repository.getFullName() + "/releases/latest");
+            // 有release/latest
             if (result != null && result.length() > 2) {
-                // 过滤掉预览版
-                JSONArray jsonArray = JSON.parseArray(result);
-                for (Object object : jsonArray) {
-                    JSONObject jsonObject = (JSONObject) object;
-                    if (jsonObject.getBoolean("prerelease")) {
-                        continue;
-                    } else {
-                        release(repository, jsonObject);
-                        break;
-                    }
-                }
-            } else {
+                JSONObject jsonObject = JSON.parseObject(result);
+                release(repository, jsonObject);
+            }else {
                 // 没有release，尝试查找tag
                 result = HttpUtil.get("https://api.github.com/repos/" + repository.getFullName() + "/tags");
                 if (result != null && result.length() > 2) {
