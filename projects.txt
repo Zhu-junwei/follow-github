@@ -1,4 +1,3 @@
-xingyuv/captcha-plus
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -58,3 +57,4 @@ vuejs/core
 vuejs/pinia
 vuejs/pinia
 xiaoymin/knife4j
+xingyuv/captcha-plus
