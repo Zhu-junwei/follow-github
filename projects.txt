@@ -1,3 +1,4 @@
+fast-excel/fastexcel
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
