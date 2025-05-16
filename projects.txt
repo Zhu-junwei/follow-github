@@ -1,4 +1,3 @@
-stleary/JSON-java
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -53,6 +52,7 @@ spring-cloud/spring-cloud-openfeign
 spring-projects/spring-boot
 spring-projects/spring-framework
 square/okhttp
+stleary/JSON-java
 unocss/unocss
 uuidjs/uuid
 vuejs/core
