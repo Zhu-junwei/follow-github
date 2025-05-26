@@ -1,6 +1,6 @@
 # Project Information
 
-fetch date：**2025-05-25**
+fetch date：**2025-05-26**
 
 | Name                |         Release        |   Release Date    |    Github      |    Language      | description                                                                            |
 |---------------------|------------------------|-------------------|----------------|------------------|----------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ fetch date：**2025-05-25**
 |[jjwt](https://github.com/jwtk/jjwt) |[![](https://img.shields.io/badge/jjwt-0.12.6-green.svg)](https://github.com/jwtk/jjwt/releases)| 2024-06-21|[![GitHub stars](https://img.shields.io/github/stars/jwtk/jjwt)](https://github.com/jwtk/jjwt)|Java| <div style="width: 150pt">Java JWT: JSON Web Token for Java and Android</div> |
 |[JSON-java](http://stleary.github.io/JSON-java/index.html) |[![](https://img.shields.io/badge/JSON--java-20250517-green.svg)](https://github.com/stleary/JSON-java/releases)| 2025-05-17|[![GitHub stars](https://img.shields.io/github/stars/stleary/JSON-java)](https://github.com/stleary/JSON-java)|Java| <div style="width: 150pt">A reference implementation of a JSON package in Java.</div> |
 |[jsoup](https://jsoup.org) |[![](https://img.shields.io/badge/jsoup-1.20.1-green.svg)](https://github.com/jhy/jsoup/releases)| 2025-04-29|[![GitHub stars](https://img.shields.io/github/stars/jhy/jsoup)](https://github.com/jhy/jsoup)|Java| <div style="width: 150pt">jsoup: the Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety.</div> |
-|[kafka](https://github.com/apache/kafka) |[![GitHub Tag](https://img.shields.io/github/v/tag/apache/kafka?sort=date)]()| 2025-05-24|[![GitHub stars](https://img.shields.io/github/stars/apache/kafka)](https://github.com/apache/kafka)|Java| <div style="width: 150pt">Mirror of Apache Kafka</div> |
+|[kafka](https://github.com/apache/kafka) |[![GitHub Tag](https://img.shields.io/github/v/tag/apache/kafka?sort=date)]()| 2025-05-25|[![GitHub stars](https://img.shields.io/github/stars/apache/kafka)](https://github.com/apache/kafka)|Java| <div style="width: 150pt">Mirror of Apache Kafka</div> |
 |[keycloak](https://www.keycloak.org) |[![](https://img.shields.io/badge/keycloak-26.2.4-green.svg)](https://github.com/keycloak/keycloak/releases)| 2025-05-08|[![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak)](https://github.com/keycloak/keycloak)|Java| <div style="width: 150pt">Open Source Identity and Access Management For Modern Applications and Services</div> |
 |[knife4j](https://doc.xiaominfo.com) |[![](https://img.shields.io/badge/knife4j-4.5.0-green.svg)](https://github.com/xiaoymin/knife4j/releases)| 2024-01-08|[![GitHub stars](https://img.shields.io/github/stars/xiaoymin/knife4j)](https://github.com/xiaoymin/knife4j)|HTML| <div style="width: 150pt">Knife4j is a set of Swagger2 and OpenAPI3 All-in-one enhancement solution</div> |
 |[lucene](https://lucene.apache.org/) |[![](https://img.shields.io/badge/lucene-10.2.0-green.svg)](https://github.com/apache/lucene/releases)| 2025-04-10|[![GitHub stars](https://img.shields.io/github/stars/apache/lucene)](https://github.com/apache/lucene)|Java| <div style="width: 150pt">Apache Lucene open-source search software</div> |
