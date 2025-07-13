@@ -1,4 +1,3 @@
-rustfs/rustfs
 6tail/lunar-java
 ai/nanoid
 alibaba/druid
@@ -49,6 +48,7 @@ quarkusio/quarkus
 rabbitmq/rabbitmq-server
 redis/redis
 redisson/redisson
+rustfs/rustfs
 spring-cloud/spring-cloud-openfeign
 spring-projects/spring-boot
 spring-projects/spring-framework
