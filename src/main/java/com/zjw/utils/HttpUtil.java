@@ -22,7 +22,7 @@ public class HttpUtil {
 
     public static String get(String url) throws IOException {
         OkHttpClient client = new OkHttpClient();
-        String result = "";
+        String result ;
         Request request = new Request.Builder()
                 .url(url)
                 .header("Authorization", token)
