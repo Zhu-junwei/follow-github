@@ -2,7 +2,7 @@ name: Update Follow Projects
 
 on:
   schedule:
-    - cron: '0 2,16 * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch: # 允许手动执行
   push:
     branches:
@@ -33,11 +33,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.email "zhujwmail@163.com"
-          git config --global user.name "Actions"
-          current_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %T")  # 获取当前时间
-          commit_message="update $current_time"  # 构造提交信息
-          if [ -n "$(git status --porcelain)" ]; then  # 检查是否有未提交的变更
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          current_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %T")
+          commit_message="update $current_time"
+          if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "$commit_message"
             git push origin HEAD:${{ github.ref }}
